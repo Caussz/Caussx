@@ -223,7 +223,7 @@ const help = (prefix) => {
 ║ *NOME: CAUSS*
 ║ *INSTA: animexx_png*
 ║ *WPP: wa.me/+5547992091566*
-║ *YOUTUBE: https://youtube.com/causs*
+║ *YOUTUBE: https://www.youtube.com/c/caussZ*
 ║
 ║  *"Peita ou respeita🐊🚩*
 ║  *"kiba não xereka"*
