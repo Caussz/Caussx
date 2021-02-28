@@ -304,7 +304,7 @@ const gcpf = () => {
 874.732.303-52
 549.647.418-34
 
-Dark domina ta? 🐊🚩
+CAUSS NO CONTROLE 🐊🚩
 `
 }
 exports.gcpf = gcpf

@@ -149,7 +149,7 @@ https://realsht.mobi/iJQbj
 • 100 Font Picsay/Pixelab
 https://realsht.mobi/hrTdE
 
-Dark domina ta? 🐊🚩
+CAUSS NO CONTROLE 🐊🚩
 `
 }
 exports.modapk = modapk

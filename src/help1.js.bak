@@ -3,11 +3,11 @@ const help1 = (prefix) => {
 	return `
 ┣━━━━°❀ ❬ *CRIAR* ❭ ❀°━━━━┓
 ┃
-┣⊱❥ *thunder*
-┣⊱❥ *tahta*
-┣⊱❥ *glitch <texto | texto>*
-┣⊱❥ *phlogo <texto | texto>*
-┣⊱❥ *wolflogo <texto | texto>*
+┣⊱❥ *xd*
+┣⊱❥ *pinterest*
+┣⊱❥ *anjing*
+┣⊱❥ *loli2*
+┣⊱❥ *anime*
 ┣⊱❥ *wolflogo2 <texto | texto>*
 ┣⊱❥ *quotemaker <tx | wtrmk | tema>*
 ┣⊱❥ *galaxtext*

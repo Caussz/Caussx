@@ -1,6 +1,5 @@
-const listmenu = (prefix) => { 
+const menu2 = (prefix) => { 
 	return `                 
-
 ╠══✪〘 MENU 〙✪══
 ║
 ╠➥ *${prefix}figu*
@@ -48,4 +47,4 @@ const listmenu = (prefix) => {
 ║
 ╠══✪〘 *DARKBOT* 〙✪══`
 }
-exports.listmenu = listmenu
+exports.menu2 = menu2

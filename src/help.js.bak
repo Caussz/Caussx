@@ -182,7 +182,7 @@ const help = (prefix) => {
 ║141 *${prefix}next*
 ║142 *${prefix}alerta*
 ║143 *${prefix}belle [img aleatórias]*
-║144 *${prefix}blowfigu*
+║144 *${prefix}pronomeneu [texto]*
 ║144 *${prefix}hobby*
 ║
 ╠══✪〘 COMANDOS DE VOZ 〙✪══

@@ -1,4 +1,4 @@
-const kodenuklir = () => { 
+const chentai = () => { 
 	return `
 	
 	*ola👋👋* *COLETE SEUS CÓDIGOS DE HENTAI 😌*
@@ -493,4 +493,4 @@ https://nhentai.net/g/247574/ Watashi no Onii-chan Extra
 
 *DARKBOT* `
 }
-exports.kodenuklir = kodenuklir
+exports.chentai = chentai
