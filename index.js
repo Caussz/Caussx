@@ -706,7 +706,7 @@ if (text.includes("placa"))
 	}
 	        if (messagesC.includes("sexo")){
 			client.updatePresence(from, Presence.composing)
-			tujuh = fs.readFileSync('./assets/Lilly Wood _ Máquina de Sexo - Prayer In Chatuba [FULL] REMIX(MP3_160K)_1.mp3');
+			tujuh = fs.readFileSync('./assets/Sexo.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
