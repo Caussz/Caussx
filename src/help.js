@@ -1,6 +1,19 @@
 const help = (prefix) => {
 	return `
-╔══✪〘 INFORMAÇÕES〙✪══
+<══════════════════════>
+      *CAUSS BOT*
+ <══════════════════════>
+
+__█████████  ● ᏴϴͲ●ᎷᎬΝႮ●         
+__█▄█████▄█   *DONO*    : CAUSS
+__█▼▼▼▼▼█ 
+_██ᏴϴͲ Ꮩ3.8██▌ 
+__█▲▲▲▲▲█ 
+__█████████ 
+____██_____██
+
+┌─────────❶.❷────────
+║〘 INFORMAÇÕES 〙
 ║
 ╠🐉 *CAUSS BOT* 
 ╠🐉 *2.4*
@@ -8,21 +21,8 @@ const help = (prefix) => {
 ╠🐉 *wa.me/+5547992091566*
 ╠🐉 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
-╠══✪〘 NOVOS 〙✪══
 ║
-║🐊 *${prefix}animecry*
-║🐊 *${prefix}chentai [premium]*
-║🐊 *${prefix}gcpf [premium]*
-║🐊 *${prefix}gay [@]*
-║🐊 *${prefix}gbin [premium]*
-║🐊 *${prefix}pack [premium]*
-║🐊 *${prefix}destrava [premium]*
-║🐊 *${prefix}gpessoa [premium]*
-║🐊 *${prefix}wame*
-║🐊 *${prefix}spamcall*
-║🐊 *${prefix}play (nome da msc)*
-║
-╠══✪〘 MENU 〙✪══
+╠══🐰〘 MENU 〙🐰══
 ║
 ║🐊 *${prefix}figu*
 ║🐊 *${prefix}toimg*
@@ -36,7 +36,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}wait [na legenda]*
 ║🐊 *${prefix}setprefix*
 ║
-╠══✪〘 OUTROS 〙✪══
+╠══🐰〘 OUTROS 〙🐰══
 ║
 ║🐊 *${prefix}linkgp*
 ║🐊 *${prefix}simih [1/0]*
@@ -71,7 +71,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}marcar2*
 ║🐊 *${prefix}marcar3*
 ║
-╠══✪〘 IMAGENS 〙✪══
+╠══🐰〘 IMAGENS 〙🐰══
 ║
 ║🐊 *${prefix}loli* [off]
 ║🐊 *${prefix}loli1*
@@ -96,19 +96,20 @@ const help = (prefix) => {
 ║🐊 *${prefix}nsfwloli1*
 ║🐊 *${prefix}reislin*
 ║
-╠══✪〘 INTELIGÊNCIA 〙✪══
+╠══🐰〘 INTELIGÊNCIA 〙🐰══
 ║
 ║🐊 *${prefix}simih 1 (para ativar)*
 ║🐊 *${prefix}simih 0 (para desativar)*
 ║ *${prefix}simi (sua mensagem)*
 ║
-╠══✪〘 EM PRODUÇÃO 〙✪══
+╠══🐰〘 EM PRODUÇÃO 〙🐰══
 ║
-║🐊 *${prefix}*
-║🐊 *${prefix}*
-║🐊 *${prefix}*
+║🐊 *${prefix}gado*
+║🐊 *${prefix}dbz*
+║🐊 *${prefix}gtts loli*
+║🐊 *${prefix}hidegp*
 ║
-╠══✪〘 PREMIUM 〙✪══
+╠══🐰〘 SÓ PREMIUM 〙🐰══
 ║
 ║🐊 *${prefix}dado*
 ║🐊 *${prefix}cekvip*
@@ -125,7 +126,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}destrava*
 ║🐊 *${prefix}gpessoa*
 ║
-╠══✪〘 GRUPO 〙✪══
+╠══🐰〘 GRUPO 〙🐰══
 ║
 ║🐊 *${prefix}banir*
 ║🐊 *${prefix}leveling [on/off]*
@@ -147,7 +148,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}setdesc*
 ║🐊 *${prefix}bug [sua mensagem]*
 ║
-╠══✪〘 ESPECIFICO DO BOT 〙✪══
+╠══🐰〘 ESPECIFICO DO BOT 〙🐰══
 ║
 ║🐊 *${prefix}bug [sua mensagem]*
 ║🐊 *${prefix}clonar [@]*
@@ -162,7 +163,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}desligar (so para o dono)*
 ║🐊 *${prefix}timer*
 ║
-╠══✪〘 MAIS ALGUNS 〙✪══
+╠══🐰〘 MAIS ALGUNS 〙🐰══
 ║
 ║🐊 *${prefix}neko*
 ║🐊 *${prefix}ttp [texto]*
@@ -185,7 +186,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}pronomeneu [texto]*
 ║🐊 *${prefix}hobby*
 ║
-╠══✪〘 COMANDOS DE VOZ 〙✪══
+╠══🐰〘 COMANDOS DE VOZ 〙🐰══
 ║
 ║🐊 *${prefix}ola*
 ║🐊 *${prefix}bv*
@@ -197,7 +198,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}beat1*
 ║🐊 *${prefix}glub*
 ║
-╠══✪〘 OUTROS /2 〙✪══
+╠══🐰〘 OUTROS /2 〙🐰══
 ║
 ║🐊 *${prefix}antilink [1/0]*
 ║🐊 *${prefix}brainly [pergunta]*
@@ -205,7 +206,7 @@ const help = (prefix) => {
 ║🐊 *${prefix}setnomebot*
 ║🐊 *${prefix}meme*
 ║
-╠══✪〘 INTERATIVOS 〙✪══
+╠══🐰〘 INTERATIVOS 〙🐰══
 ║
 ╠══NOTA »
 ║Mandar a msg sem o prefixo
@@ -218,16 +219,16 @@ const help = (prefix) => {
 ║🐊 *grita*
 ║
 ║
-╠══✪〘 CAUSS NO CONTROLE 〙✪══
+╠══🐰〘 CAUSS NO CONTROLE 〙🐰══
 ║
 ║ *NOME: CAUSS*
 ║ *INSTA: animexx_png*
 ║ *WPP: wa.me/+5547992091566*
-║ *YOUTUBE: https://www.youtube.com/c/caussZ*
+║ *YOUTUBE: https://youtube.com/causs*
 ║
-║  *"Peita ou respeita🐊🚩*
+║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
-║
+║  *Número do dark: wa.me/+5522996215481
 ║
 ╚═〘 CAUSS BOT 〙`
 }
