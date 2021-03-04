@@ -1837,16 +1837,6 @@ if (text.includes("placa"))
 					client.sendMessage(from, nye, image, { caption: 'boruto!!', quoted: mek })
 					await limitAdd(sender)
 					break 
-	     		case 'ytcm':
-
-					reply(mess.wait)
-					anu = await fetchJson(`https://some-random-api.ml/canvas/youtube-comment'})
-					bor = JSON.parse(JSON.stringify(anu));
-					uto =  bor[Math.floor(Math.random() * bor.length)];
-					nye = await getBuffer(uto)
-					client.sendMessage(from, nye, image, { caption: 'eita!!', quoted: mek })
-					await limitAdd(sender)
-					break 
 				case 'animecry':
 					cry = getRandom('.gif')
 					rano = getRandom('.webp')
