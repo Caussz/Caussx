@@ -1106,6 +1106,15 @@ if (text.includes("placa"))
 					buffer = await getBuffer(`https://api.vhtear.com/thundertext?text=${thun}&apikey=ANTIGRATISNIHANJENKKK`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: ' '+thun})
 					break
+				case 'rr':
+                    if (isBanned) return reply(mess.only.benned)
+                    if (!isUser) return reply(mess.only.userB)
+                    if (!isPublic) return reply(mess.only.publikG)
+                    rate = body.slice(1)
+                    ratee = ["Tac... Não disparou","Tac... Nã>
+                    const cu = ratee[Math.floor(Math.random()>
+                    frhan.sendMessage(from, ''+ cu+'', text, >
+                      break
                 case 'stiltext':
                       if (args.length < 1) return reply('Cadê o texto?')
                       gh = body.slice(11)
