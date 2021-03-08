@@ -666,12 +666,6 @@ if (text.includes("placa"))
 			client.updatePresence(from, Presence.composing)
 			reply("vsfd seu merda")
 	}
-		}
-	
-		if (messagesC.includes("causs")){
-			client.updatePresence(from, Presence.composing)
-			reply("lindo perfeito")
-	}
 	
 		if (messagesC.includes("tmnc")){
 			client.updatePresence(from, Presence.composing)
