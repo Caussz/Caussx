@@ -107,6 +107,9 @@ ____██_____██
 ║🐊 *${prefix}dbz*
 ║🐊 *${prefix}gtts loli*
 ║🐊 *${prefix}hidegp*
+║🐊 *${prefix}grupos
+║🐊 *${prefix}antinazismo
+║🐊 *${prefix}it 1/0
 ║
 ╠══🐰〘 SÓ PREMIUM 〙🐰══
 ║
@@ -184,6 +187,8 @@ ____██_____██
 ║🐊 *${prefix}belle [img aleatórias]*
 ║🐊 *${prefix}pronomeneu [texto]*
 ║🐊 *${prefix}hobby*
+║🐊 *${prefix}kiss
+║🐊 *${prefix}analise
 ║
 ╠══🐰〘 COMANDOS DE VOZ 〙🐰══
 ║
@@ -196,6 +201,7 @@ ____██_____██
 ║🐊 *${prefix}onich*
 ║🐊 *${prefix}beat1*
 ║🐊 *${prefix}glub*
+║🐊 *${prefix}causs*
 ║
 ╠══🐰〘 OUTROS /2 〙🐰══
 ║
@@ -216,14 +222,16 @@ ____██_____██
 ║🐊 *bv*
 ║🐊 *canta ai bot*
 ║🐊 *grita*
-║
+║🐊 *causs*
+║🐊 *gemidao*
+║🐊 *musica*
 ║
 ╠══🐰〘 CAUSS NO CONTROLE 〙🐰══
 ║
 ║ *NOME: CAUSS*
 ║ *INSTA: animexx_png*
 ║ *WPP: wa.me/+5547992091566*
-║ *YOUTUBE: https://youtube.com/causs*
+║ *YOUTUBE: https://youtube.com/c/caussZ*
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
