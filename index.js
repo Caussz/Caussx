@@ -3549,6 +3549,21 @@ break
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
+		        case 'rr':
+                if (!isGroupMsg) return client.reply(from, msgs_texto.permissao.grupo, id)
+                if (!isGroupAdmins) return client.reply(from, msgs_texto.permissao.apenas_admin , id)
+                if (!isBotGroupAdmins) return client.reply(from,msgs_texto.permissao.bot_admin, id)
+                let membros_id = await client.getGroupMembersId(groupId)
+                membros_id.splice(membros_id.indexOf(groupOwner),1)
+                membros_id.splice(membros_id.indexOf(botNumber+'@c.us'),1)
+                let membro_id_index = Math.floor(Math.random() * membros_id.length)
+                let roleta_resposta = preencherTexto(msgs_texto.diversao.roletarussa.resposta,membros_id[membro_id_index].replace(/@c.us/g, ''))
+                client.reply(from, msgs_texto.diversao.roletarussa.espera , id).then(()=>{
+                    client.sendTextWithMentions(from, roleta_resposta).then(()=>{
+                        client.removeParticipant(groupId, membros_id[membro_id_index])
+                    })
+                })
+                    break
 				case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4V_4fdvF8rluX0T3KKGOvY0TusMwx7nVWtw&usqp=CAU`)
