@@ -3549,8 +3549,7 @@ break
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
-				case 'rr':
-				if (isBanned) return reply(mess.only.benned)    
+			    case 'rr'    
 				if (!isUser) return reply(mess.only.userB)
 				if (!isPublic) return reply(mess.only.publikG)
 					rate = body.slice(1)
