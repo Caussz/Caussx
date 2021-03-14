@@ -3549,6 +3549,47 @@ break
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
+				case 'antishit':
+               if (!isGroup) return reply(mess.only.group);
+               if (!isGroupAdmins) return reply(mess.only.admin);
+               if (args.length < 1) return reply('On para ativar,Off para desativar');
+               if (args[0] === 'on') {
+                  if (isAntiShit) return reply('antishit já ativo burro');
+                  antishit.push(from);
+                  fs.writeFileSync('./database/json/antishit.json', JSON.stringify(antishit));
+                  reply(`Antishit ativado`);
+               } else if (args[0] === 'off') {
+                  if (!isAntiShit) return reply('antishit já ta off burro');
+                  antishit.splice(from, 1);
+                  fs.writeFileSync('./database/json/antishit.json', JSON.stringify(antishit));
+                  reply(`Antishit desativado`);
+               } else {
+                  reply(ind.satukos());
+               }
+               break
+           case 'addshit':
+               if (!isOwner) return reply(mess.only.ownerB);
+               if (args.length < 1) return reply(`Kirim perintah ${prefix}addbadword [kata kasar]. contoh ${prefix}addbadword bego`);
+               const bw = body.slice(9);
+               bad.push(bw);
+               fs.writeFileSync('./database/json/bad.json', JSON.stringify(bad));
+               reply('Success Menambahkan Bad Word!');
+               break;
+           case 'delshit':
+               if (!isOwner) return reply(mess.only.ownerB);
+               if (args.length < 1) return reply(`Kirim perintah ${prefix}delbadword [kata kasar]. contoh ${prefix}delbadword bego`);
+               let dbw = body.slice(9);
+               bad.splice(dbw);
+               fs.writeFileSync('./database/json/bad.json', JSON.stringify(bad));
+               reply('Success Menghapus BAD WORD!');
+               break
+           case 'shitlist':
+               let lbw = `Lista de palavras proibidas\nTotal : ${bad.length}\n`;
+               for (let i of bad) {
+                  lbw += `➸ ${i.replace(bad)}\n`;
+               }
+               await reply(lbw);
+               break
 				case 'rr':
                     rate = body.slice(1)
                     ratee = ["Tac... Não disparou","Tac... Não disparou,ainda...","Tac💥 Disparou e você morreu","Tac💥Disparou mas a bala pegou de raspão","A arma falhou","Tac... Por pouco que não dispara...","Tac... A arma estava descarregada"]
