@@ -1,7 +1,7 @@
 const help = (prefix) => {
 	return `
 <══════════════════════>
-      *CAUSS BOT*
+      *Ansar BOT*
  <══════════════════════>
 
 __█████████  ● ᏴϴͲ●ᎷᎬΝႮ●         
@@ -15,9 +15,9 @@ ____██_____██
 ┌─────────❶.❷────────
 ║〘 INFORMAÇÕES 〙
 ║
-╠🐉 *CAUSS BOT* 
+╠🐉 *ANSAR BOT* 
 ╠🐉 𝐃𝐎𝐍𝐎:  ⃬⃗CAUSS (base dark) 
-╠🐉 *wa.me/+5547992091566*
+╠🐉 *wa.me/+6281244783843*
 ╠🐉 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
 ║
@@ -228,16 +228,16 @@ ____██_____██
 ║
 ╠══🐰〘 CAUSS NO CONTROLE 〙🐰══
 ║
-║ *NOME: CAUSS*
+║ *NOME: Ansar*
 ║ *INSTA: animexx_png*
-║ *WPP: wa.me/+5547992091566*
-║ *YOUTUBE: https://youtube.com/c/caussZ*
+║ *WPP: wa.me/+6281244783843*
+║ *YOUTUBE:######*
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
-║  *Número do dark: wa.me/+5522996215481
+║  *Número do dark: wa.me/+6281244783843*
 ║
-╚═〘 CAUSS BOT 〙`
+╚═〘 ANSAR BOT 〙`
 }
 
 exports.help = help
