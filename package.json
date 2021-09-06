@@ -1,7 +1,7 @@
 {
-  "name": "termux-wabot",
-  "version": "0.0.2",
-  "description": "No comment",
+  "name": "Causs-BOT",
+  "version": "3.9.0",
+  "description": "Sem comentários",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "MhankBarBar",
+  "author": "Causs",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
@@ -41,10 +41,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhankbarbar/termux-wabot.git"
+    "url": "git+https://github.com/Admcauss-alt/Caussx.git"
   },
   "bugs": {
-    "url": "https://github.com/mhankbarbar/termux-wabot/issues"
+    "url": "https://github.com/Admcauss-alt/Caussx/issues"
   },
-  "homepage": "https://github.com/mhankbarbar/termux-wabot#readme"
+  "homepage": "https://github.com/Admcauss-alt/Caussx#readme"
 }
