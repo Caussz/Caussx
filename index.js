@@ -23,6 +23,7 @@ const {
     Browser
 } = require('@adiwajshing/baileys')
 //teste boy
+//teste1 teste2
 /*********** Módulos e lib ***********/ 
 const { color, bgcolor } = require('./lib/color')
 const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
@@ -72,7 +73,7 @@ blocked = []
 limitawal = '999999999'
 cr = 'Causs'
 emoji = '>' 
-insta = '@cauazinnn_'
+insta = '@caussz'
 stt = 'on'
 thumbmenu = ('./assets/thumbmenu.webp') 
 /*********** Database ***********/
