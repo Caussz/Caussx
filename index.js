@@ -23,7 +23,7 @@ const {
     Browser
 } = require('@adiwajshing/baileys')
 //teste boy
-//teste1 teste2 teste3
+//teste1 teste2 teste3 teste4
 /*********** Módulos e lib ***********/ 
 const { color, bgcolor } = require('./lib/color')
 const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
